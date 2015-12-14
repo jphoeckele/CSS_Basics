@@ -1,16 +1,8 @@
+/* type selectors */
 
 body {
   color: #878787;
   margin: 0;
-}
-
-.main-header {
-  background-color: orange;
-}
-
-.title {
-  color: white;
-  font-size: 26px;
 }
 
 ol li {
@@ -33,19 +25,36 @@ h3 {
   color: #48525c;
 }
 
-.primary-content {
-  text-align: center;
+/* class selectors */
+
+.main-header {
+  background-color: orange;
+}
+
+.title {
+  color: white;
+  font-size: 26px;
 }
 
 .t-border {
   border-top: 2px solid lightgrey;
 }
 
+.primary-content {
+  text-align: center;
+}
+
+
+
+/* id selectors */
+
 #main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
   border-bottom: solid 10px orange;
 }
+
+/* pseudo selectors */
 
 a:link {
   color: orange;
