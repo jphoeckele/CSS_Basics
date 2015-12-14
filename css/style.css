@@ -26,12 +26,17 @@ h3 {
   text-align: center;
 }
 
+.secondary-content {
+
+}
+
+.t-border {
+  border-top: 2px solid lightgrey;
+}
+
 #main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
   border-bottom: solid 10px orange;
 }
 
-.secondary-content {
-  border-top: 2px solid lightgrey;
-}
