@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 
-header {
+.main-header {
   background-color: orange;
 }
 
@@ -22,12 +22,16 @@ h3 {
   color: #48525c;
 }
 
-#primary-content {
-  border: 3px solid red;
+.primary-content {
+  text-align: center;
 }
 
 #main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
   border-bottom: solid 10px orange;
+}
+
+.secondary-content {
+  border-top: 2px solid lightgrey;
 }
