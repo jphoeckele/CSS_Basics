@@ -3,14 +3,7 @@
 body {
   color: #878787;
   margin: 0;
-  font-size: 1em;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-}
-
-ol li {
-  background-color: tomato;
-  color: white;
-  margin-bottom: 5px;
+  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; 
 }
 
 h1 {
@@ -18,6 +11,7 @@ h1 {
   color: rgba(255, 255, 255, 1);
   text-transform: uppercase;
   font-weight: normal;
+  line-height: 1.3;
 }
 
 h2 {
@@ -43,12 +37,8 @@ h3 {
 }
 
 .primary-content, 
-.secondary-content {
-  width: 60%;
-}
-
-.primary-content, 
-.main-header {
+.main-header, 
+.main-footer {
   text-align: center;
 }
 
@@ -86,11 +76,16 @@ a:active {
   color: lightcoral;
 }
 
-:focus {
-  color: white;
-  background-color: orange;
+/* layout styles */
+
+.primary-content, 
+.secondary-content {
+  width: 60%;
 }
 
-
-
-
+.wildlife {
+  color: white;
+  background-color: #434a52;
+  padding: 18% 24%;
+  border: 10px solid #ffa949;
+}
