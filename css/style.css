@@ -1,6 +1,6 @@
 /* Base Styles */
 * {
-   box-sizing: borderbox;
+   box-sizing: border-box;
 }
 
 body {
@@ -123,24 +123,31 @@ padding-top: 170px;
 
 .wildlife {
   color: white;
-  background-color: #434a52;
+  text-align: left;
   padding: 18% 24%;
   border-top: 10px solid #ffa949;
   margin: 105px 0 60px;
-/*
-  margin-top: 105px;
-  margin-right: 0;
-  margin-bottom: 60px;
-  margin-left: 0;
-*/
+  background: #434a52 url('../img/shark.jpg') no-repeat center;
+  background-size: cover;
 }
 
 .arrow {
   width: 50px;
 }
 
+/* Floated Columns */
 
+.resorts, .tips {
+  width: 46.5%;
+}
 
+.tips {
+  float: right;
+}
+
+.resorts {
+  float: left;
+}
 
 
 
