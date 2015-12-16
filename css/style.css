@@ -1,4 +1,7 @@
 /* Base Styles */
+* {
+   box-sizing: borderbox;
+}
 
 body {
   color: #878787;
@@ -58,6 +61,8 @@ a:active {
 
 .main-header {
   background-color: #ffa949;
+padding-top: 170px;
+  height: 850px;
 }
 
 .title {
@@ -98,8 +103,11 @@ a:active {
 
 .primary-content, 
 .secondary-content {
-  width: 60%;
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
   margin: auto;
+  max-width: 900px;
 }
 
 .wildlife {
@@ -116,6 +124,9 @@ a:active {
 */
 }
 
+.arrow {
+  width: 50px;
+}
 
 
 
