@@ -1,6 +1,7 @@
-/* Base Styles */
+/* Base Styles -------------------- */
+
 * {
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -21,7 +22,7 @@ h2 {
   font-size: 3.3125em; /* 53px/16px  */
   font-weight: normal;
   line-height: 1.1;
-  margin-bottom: .5em; /* 26px */
+  margin: 0 0 .5em; /* 0 0 26px */
 }
 
 h3 {
@@ -35,14 +36,8 @@ img {
   max-width: 100%;
   margin-bottom: 20px;
 }
-/*li {
-  display: inline-block;
-  padding: 0 12px;
-  border-right: solid 1px;
-  margin: 80px 0;
-}*/
 
-/* Pseudo-classes */
+/* Pseudo-classes ------------------ */
 
 a:link {
   color: rgb(255, 169, 73);
@@ -60,6 +55,7 @@ a:hover {
 a:active {
   color: lightcoral;
 }
+
 
 /* Main Styles  */
 
@@ -92,6 +88,18 @@ padding-top: 170px;
   text-align: center;
 }
 
+.primary-content {
+  padding-top: 25px;
+  padding-bottom: 95px;
+}
+
+.secondary-content {
+  padding-top: 80px;
+  padding-bottom: 70px;
+  border-bottom: 2px solid #dfe2e6;
+  overflow: auto;
+}
+
 .callout {
   font-size: 1.25em;
   border-bottom: 3px solid;
@@ -107,10 +115,10 @@ padding-top: 170px;
 }
 
 .t-border {
-  border-top: 2px solid lightgrey;
+  border-top: 2px solid #dfe2e6;
 }
 
-/* Layout Styles */
+/* Layout Styles ------------------ */
 
 .primary-content, 
 .secondary-content {
@@ -118,8 +126,9 @@ padding-top: 170px;
   padding-left: 50px;
   padding-right: 50px;
   margin: auto;
-  max-width: 900px;
+  max-width: 960px;
 }
+
 
 .wildlife {
   color: white;
@@ -135,9 +144,10 @@ padding-top: 170px;
   width: 50px;
 }
 
-/* Floated Columns */
+/* Floated Columns ------------------ */
 
-.resorts, .tips {
+.resorts,
+.tips {
   width: 46.5%;
 }
 
@@ -153,3 +163,10 @@ padding-top: 170px;
 
 
 
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
