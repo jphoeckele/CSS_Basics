@@ -64,12 +64,16 @@ a:active {
 /* Main Styles  */
 
 .main-header {
-  background-color: #ffa949;
+/*  background-color: #ffa949;*/
 padding-top: 170px;
   height: 850px;
-  background-image: url('../img/beaches.jpg');
-  background-size: 40%;
+ /* background-image: url('../img/beaches.jpg');
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;*/
+
+  background: #ffa949 url('../img/beaches.jpg') no-repeat center;
+  background-size: cover;
 }
 
 .title {
