@@ -204,3 +204,9 @@ a:active {
   display: table;
   clear: both;
 }
+
+/* Media Queries -------------------- */
+
+@media (max-width: 960px) {
+
+}
