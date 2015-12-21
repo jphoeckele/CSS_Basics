@@ -23,12 +23,17 @@ body {
   font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/*h1, h2 {
+  font-family: "Abolition Regular", Helvetica, Arial, sans-serif;;
+}*/
+
 h1 {  
   font-size: 5.625rem; /* 90px/16px  */
   color: rgba(255, 255, 255, 1);
   text-transform: uppercase;
   font-weight: normal;
   line-height: 1.3;
+  margin: 12px 0 0;
      text-shadow: 0 1px 0 #ccc,
                0 2px 0 #c9c9c9,
                0 3px 0 #bbb,
@@ -103,6 +108,10 @@ a:active {
 .title {
   color: white;
   font-size: 1.625rem; /* 26px/16px */
+  letter-spacing: .065em;
+  font-weight: 200;
+  border-bottom: 2px solid;
+  padding-bottom: 2px;
 }
 
 .intro {
@@ -170,6 +179,7 @@ a:active {
 
 .arrow {
   width: 50px;
+  margin-top: 15px;
 }
 
 /* Floated Columns ------------------ */
