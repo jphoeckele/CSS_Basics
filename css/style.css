@@ -244,7 +244,7 @@ a:active {
   .primary-content, .secondary-content {
     width: 100%;
     padding:20px;
-    border: none;
+    border-top: none;
   }
   
   .main-header {
@@ -269,4 +269,12 @@ a:active {
   .intro {
     font-size: 1rem;
   }
+
+  .resorts, .tips {
+    float: none;
+    width: 100%;
+  }
+   .main-footer {
+    padding: 20px 0;
+   }
 }
