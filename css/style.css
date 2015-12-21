@@ -1,3 +1,16 @@
+/* Web Fonts -------------------- */
+
+@font-face{
+  font-family: "Abolition Regular";
+  /*  CSS snippet for importing web font formats  */
+  src: url('../fonts/abolition-regular-webfont.eot');
+  src: url('../fonts/abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/abolition-regular-webfont.woff') format('woff'),
+       url('../fonts/abolition-regular-webfont.ttf') format('truetype');
+}
+
+
+
 /* Base Styles -------------------- */
 
 * {
@@ -83,10 +96,7 @@ a:active {
 .main-header {
   padding-top: 170px;
   height: 850px;
-  background: linear-gradient(#ffa949, transparent 90%),
-              linear-gradient( 0deg, #fff, transparent),
-              #ffa949 url('../img/beaches.jpg') no-repeat center;
-  
+  background: #ffa949 url('../img/beaches.jpg') no-repeat center;
   background-size: cover;
 }
 
